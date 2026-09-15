@@ -1,0 +1,192 @@
+body{
+    margin:0px 0px;
+}
+/*HEADER*/
+.div-lista-header{
+    width: 20%;
+}
+
+.lista-header{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+#header-principal{
+    display: flex;
+    justify-content: space-between;
+}
+/*primer section */
+
+#primer-section{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Primer-section-text{
+    width: 40%;
+    height: 50%
+
+}
+.Primer-section-text p{
+    width: 70%;
+}
+.Primer-section-text h1{
+    font-size: 3rem;
+}
+.Primer-section-text h5{
+    margin-top: 0px;
+    color: orangered;
+    font-size: 1.1rem;
+
+}
+.Primer-section-text span{
+    color: orangered;
+
+}
+.Primer-section-text input[type="button"]{
+    width: 25%;
+    height: 12%;
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 3px;
+}
+.Primer-section-text input[type="button"]:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.Primer-section-imagen{
+    width: 35%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.Primer-section-imagen h2{
+    margin: 0px;
+    color: orangered;
+    font-size: 3rem;
+}
+.Primer-section-imagen p{
+    margin-top: 0px;
+    color: white;
+}
+#primer-section-class{
+    height: 75vh;
+}
+
+/*segundos section */
+
+.services{
+    height: 70vh;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.segundo-section-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.segundo-section-a h4{
+    color:orangered;
+}
+.segundo-section-a h2{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.seg-sect-list{
+
+    padding-left: 0px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.seg-sect-list h5{
+    font-size: 1rem;
+    color: orangered;
+}
+.seg-sect-list p{
+    color:black;
+    font-size: 0,75rem;
+}
+.seg-sect-list li{
+    padding-left: 10px;
+    background-color: white;
+    border:3px;
+    width:30%;
+}
+/* tercer section */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.tercer-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tercer-section-text{
+    width: 67%;
+}
+.tercer-section-text p{
+    width: 70%;
+}
+.tercer-section-text h5{
+    color: orangered;
+}
+.tercer-section-dob-divs{
+    height:50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tercer-section-dob-divs div{
+    width: 40%;
+    padding: 10px 10px;
+    background-color: rgb(231, 231, 231);
+}
+.tercer-section-dob-divs h1{
+    color: orangered;
+}
+/*.cuarto-section */
+
+.cuarto-section-text{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.cuarto-section-text h5{
+    margin-top: 0px;
+}
+.cuarto-section-text input[type="button"]{
+    height:7%;
+    width: 7%;
+    border: 0px;
+    border-radius: 3px;
+}
+.cuarto-section-text input[type="button"]:hover{
+    background-color: rgba(255, 255, 255, 0.863);
+}
+/* footer */
+.site-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer p{
+    font-size: 0.65rem;
+}
